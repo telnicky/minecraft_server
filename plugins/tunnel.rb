@@ -1,4 +1,4 @@
-require '/Users/nelson/minecraft_server/support/compass.rb'
+require '/Users/telnicky/Code/minecraft_server/support/compass'
 
 class TunnelPlugin
   include Purugin::Plugin

@@ -1,4 +1,4 @@
-require '/Users/nelson/minecraft_server_2/support/compass'
+require '/Users/telnicky/Code/minecraft_server/support/compass'
 
 class RoadRunnerPlugin
   include Purugin::Plugin
