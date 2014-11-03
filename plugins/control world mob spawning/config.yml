@@ -1,0 +1,3 @@
+mob_control:
+  allow_monsters: true
+  allow_animals: true

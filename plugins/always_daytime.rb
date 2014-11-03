@@ -1,7 +1,7 @@
 class AlwaysDaytimePlugin
   include Purugin::Plugin, Purugin::Colors, Purugin::Tasks
   description 'A world that is never dark', 0.1
-
+  
   def on_enable
     sync_task(0, 20) do
       server.worlds.each do |world|
