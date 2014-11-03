@@ -1,79 +1,103 @@
-[12:19:59] [Server thread/INFO]: Starting minecraft server version 1.7.2
-[12:19:59] [Server thread/INFO]: Loading properties
-[12:19:59] [Server thread/INFO]: Default game type: CREATIVE
-[12:19:59] [Server thread/INFO]: Generating keypair
-[12:20:00] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:20:00] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.2-b2974jnks (MC: 1.7.2) (Implementing API version 1.7.2-R0.2)
-[12:20:00] [Server thread/INFO]: [PuruginPlugin] Loading PuruginPlugin v0.7.1
-[12:20:00] [Thread-7/WARN]: Could not get information about this CraftBukkit version; perhaps you are running a custom one?: IOException
-[12:20:00] [Thread-7/WARN]: Could not get latest artifact information: IOException
-[12:20:03] [Server thread/INFO]: Preparing level "world"
-[12:20:03] [Server thread/INFO]: Preparing start region for level 0 (Seed: 8015038035398698872)
-[12:20:04] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8015038035398698872)
-[12:20:04] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8015038035398698872)
-[12:20:04] [Server thread/INFO]: [PuruginPlugin] Enabling PuruginPlugin v0.7.1
-[12:20:04] [Server thread/INFO]: [A world that is never dark] version 0.1 ENABLED
-[12:20:04] [Server thread/INFO]: [Bulldozer] version 0.1 ENABLED
-[12:20:04] [Server thread/INFO]: [Cube Generator] version 0.2 ENABLED
-[12:20:04] [Server thread/INFO]: [Road Runner] version 0.1 ENABLED
-[12:20:04] [Server thread/INFO]: [Tron] version 0.1 ENABLED
-[12:20:04] [Server thread/INFO]: [Tunnel] version 0.1 ENABLED
-[12:20:04] [Server thread/INFO]: [Walle] version 0.1 ENABLED
-[12:20:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:20:04] [Server thread/INFO]: Done (1.417s)! For help, type "help" or "?"
-[12:22:36] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
-[12:22:36] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
-[12:22:36] [Server thread/INFO]: [0;33;22mAliases: [0;37;1mLists command aliases[m
-[12:22:36] [Server thread/INFO]: [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/ban: [0;37;1mPrevents the specified player from using this server[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/ban-ip: [0;37;1mPrevents the specified IP address from using this server[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/banlist: [0;37;1mView all players banned from this server[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/bulldozer: [0;37;1mclear out a flat space for building a structure[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/clear: [0;37;1mClears the player's inventory. Can specify item and data filters too.[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/cube: [0;37;1mmake n^3 cube of type[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/defaultgamemode: [0;37;1mSet the default gamemode[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/deop: [0;37;1mTakes the specified player's operator status[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/difficulty: [0;37;1mSets the game difficulty[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/effect: [0;37;1mAdds/Removes effects on players[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/enchant: [0;37;1mAdds enchantments to the item the player is currently holding. Specify 0 for the level to remove an enchantment. Specify force to ignore normal enchantment restrictions[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/gamemode: [0;37;1mChanges the player to a specific game mode[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/gamerule: [0;37;1mSets a server's game rules[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/give: [0;37;1mGives the specified player a certain amount of items[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/help: [0;37;1mShows the help menu[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/kick: [0;37;1mRemoves the specified player from the server[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/kill: [0;37;1mCommits suicide, only usable as a player[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/list: [0;37;1mLists all online players[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/me: [0;37;1mPerforms the specified action in chat[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/op: [0;37;1mGives the specified player operator status[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/pardon: [0;37;1mAllows the specified player to use this server[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/pardon-ip: [0;37;1mAllows the specified IP address to use this server[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/playsound: [0;37;1mPlays a sound to a given player[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/road_runner: [0;37;1mBuilds a road under your feet as you walk[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/save-all: [0;37;1mSaves the server to disk[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/save-off: [0;37;1mDisables server autosaving[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/save-on: [0;37;1mEnables server autosaving[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/say: [0;37;1mBroadcasts the given message as the console[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/scoreboard: [0;37;1mScoreboard control[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/seed: [0;37;1mShows the world seed[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/spawnpoint: [0;37;1mSets a player's spawn point[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/spreadplayers: [0;37;1mSpreads players around a point[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/stop: [0;37;1mStops the server with optional reason[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/tell: [0;37;1mSends a private message to the given player[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/testfor: [0;37;1mTests whether a specifed player is online[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/time: [0;37;1mChanges the time on each world[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/timings: [0;37;1mRecords timings for all plugin events[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/toggledownfall: [0;37;1mToggles rain on/off on a given world[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/tp: [0;37;1mTeleports the given player (or yourself) to another player or coordinates[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/tron: [0;37;1mMake every block you step on turn into the specified block type.[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/tunnel: [0;37;1mWill clear a tunnel as far as you tell me to.[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/walle: [0;37;1mMake every block you place repeat to the given height.[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/weather: [0;37;1mChanges the weather[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/whitelist: [0;37;1mManages the list of players allowed to use this server[m
-[12:22:36] [Server thread/INFO]: [0;33;22m/xp: [0;37;1mGives the specified player a certain amount of experience. Specify <amount>L to give levels instead, with a negative amount resulting in taking levels.[m
-[12:24:10] [Server thread/INFO]: Unknown command. Type "help" for help.[m
-[12:24:13] [Server thread/INFO]: Unknown command. Type "help" for help.[m
-[12:24:18] [Server thread/INFO]: Unknown command. Type "help" for help.[m
-[13:15:10] [Thread-4/INFO]: Stopping server
+[20:21:23] [Server thread/INFO]: Starting minecraft server version 1.7.2
+[20:21:23] [Server thread/INFO]: Loading properties
+[20:21:23] [Server thread/INFO]: Default game type: CREATIVE
+[20:21:23] [Server thread/INFO]: Generating keypair
+[20:21:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:21:23] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.2-b2974jnks (MC: 1.7.2) (Implementing API version 1.7.2-R0.2)
+[20:21:24] [Server thread/INFO]: [PuruginPlugin] Loading PuruginPlugin v0.7.1
+[20:21:24] [Thread-7/WARN]: Could not get information about this CraftBukkit version; perhaps you are running a custom one?: IOException
+[20:21:24] [Thread-7/WARN]: Could not get latest artifact information: IOException
+[20:21:27] [Server thread/INFO]: Preparing level "world"
+[20:21:27] [Server thread/WARN]: Unable to find spawn biome
+[20:21:28] [Server thread/INFO]: Preparing start region for level 0 (Seed: 680909306980533753)
+[20:21:29] [Server thread/INFO]: Preparing spawn area: 17%
+[20:21:30] [Server thread/INFO]: Preparing spawn area: 36%
+[20:21:31] [Server thread/INFO]: Preparing spawn area: 52%
+[20:21:32] [Server thread/INFO]: Preparing spawn area: 72%
+[20:21:33] [Server thread/INFO]: Preparing spawn area: 89%
+[20:21:33] [Server thread/INFO]: Preparing start region for level 1 (Seed: 680909306980533753)
+[20:21:34] [Server thread/INFO]: Preparing spawn area: 27%
+[20:21:35] [Server thread/INFO]: Preparing spawn area: 48%
+[20:21:36] [Server thread/INFO]: Preparing spawn area: 74%
+[20:21:37] [Server thread/INFO]: Preparing start region for level 2 (Seed: 680909306980533753)
+[20:21:38] [Server thread/INFO]: Preparing spawn area: 61%
+[20:21:39] [Server thread/INFO]: [PuruginPlugin] Enabling PuruginPlugin v0.7.1
+[20:21:39] [Server thread/INFO]: [A world that is never dark] version 0.1 ENABLED
+[20:21:39] [Server thread/INFO]: [Bulldozer] version 0.1 ENABLED
+[20:21:39] [Server thread/INFO]: [Cube Generator] version 0.2 ENABLED
+[20:21:39] [Server thread/INFO]: [Road Runner] version 0.1 ENABLED
+[20:21:39] [Server thread/INFO]: [Tron] version 0.1 ENABLED
+[20:21:39] [Server thread/INFO]: [Tunnel] version 0.1 ENABLED
+[20:21:39] [Server thread/INFO]: [Walle] version 0.1 ENABLED
+[20:21:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:21:39] [Server thread/INFO]: Done (11.972s)! For help, type "help" or "?"
+[20:22:00] [User Authenticator #1/INFO]: UUID of player telnicky is 173b917153cd4fd28cda356eb6b98199
+[20:22:00] [Server thread/INFO]: telnicky[/127.0.0.1:49826] logged in with entity id 2400 at ([world] -542.5, 64.0, -140.5)
+[20:22:44] [Server thread/INFO]: telnicky lost connection: Disconnected
+[20:22:44] [Server thread/INFO]: telnicky left the game.
+[20:23:28] [Server thread/INFO]: Unknown command. Type "help" for help.[m
+[20:23:30] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+[20:23:30] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
+[20:23:30] [Server thread/INFO]: [0;33;22mAliases: [0;37;1mLists command aliases[m
+[20:23:30] [Server thread/INFO]: [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/ban: [0;37;1mPrevents the specified player from using this server[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/ban-ip: [0;37;1mPrevents the specified IP address from using this server[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/banlist: [0;37;1mView all players banned from this server[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/bulldozer: [0;37;1mclear out a flat space for building a structure[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/clear: [0;37;1mClears the player's inventory. Can specify item and data filters too.[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/cube: [0;37;1mmake n^3 cube of type[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/defaultgamemode: [0;37;1mSet the default gamemode[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/deop: [0;37;1mTakes the specified player's operator status[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/difficulty: [0;37;1mSets the game difficulty[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/effect: [0;37;1mAdds/Removes effects on players[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/enchant: [0;37;1mAdds enchantments to the item the player is currently holding. Specify 0 for the level to remove an enchantment. Specify force to ignore normal enchantment restrictions[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/gamemode: [0;37;1mChanges the player to a specific game mode[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/gamerule: [0;37;1mSets a server's game rules[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/give: [0;37;1mGives the specified player a certain amount of items[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/help: [0;37;1mShows the help menu[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/kick: [0;37;1mRemoves the specified player from the server[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/kill: [0;37;1mCommits suicide, only usable as a player[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/list: [0;37;1mLists all online players[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/me: [0;37;1mPerforms the specified action in chat[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/op: [0;37;1mGives the specified player operator status[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/pardon: [0;37;1mAllows the specified player to use this server[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/pardon-ip: [0;37;1mAllows the specified IP address to use this server[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/playsound: [0;37;1mPlays a sound to a given player[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/road_runner: [0;37;1mBuilds a road under your feet as you walk[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/save-all: [0;37;1mSaves the server to disk[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/save-off: [0;37;1mDisables server autosaving[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/save-on: [0;37;1mEnables server autosaving[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/say: [0;37;1mBroadcasts the given message as the console[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/scoreboard: [0;37;1mScoreboard control[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/seed: [0;37;1mShows the world seed[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/spawnpoint: [0;37;1mSets a player's spawn point[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/spreadplayers: [0;37;1mSpreads players around a point[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/stop: [0;37;1mStops the server with optional reason[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/tell: [0;37;1mSends a private message to the given player[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/testfor: [0;37;1mTests whether a specifed player is online[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/time: [0;37;1mChanges the time on each world[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/timings: [0;37;1mRecords timings for all plugin events[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/toggledownfall: [0;37;1mToggles rain on/off on a given world[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/tp: [0;37;1mTeleports the given player (or yourself) to another player or coordinates[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/tron: [0;37;1mMake every block you step on turn into the specified block type.[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/tunnel: [0;37;1mWill clear a tunnel as far as you tell me to.[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/walle: [0;37;1mMake every block you place repeat to the given height.[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/weather: [0;37;1mChanges the weather[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/whitelist: [0;37;1mManages the list of players allowed to use this server[m
+[20:23:30] [Server thread/INFO]: [0;33;22m/xp: [0;37;1mGives the specified player a certain amount of experience. Specify <amount>L to give levels instead, with a negative amount resulting in taking levels.[m
+[20:25:55] [Server thread/INFO]: [0;31;1mUsage: /gamemode <mode> [player][m
+[20:25:59] [Server thread/INFO]: Unknown command. Type "help" for help.[m
+[20:26:11] [Server thread/INFO]: Can't find player telnicky[m
+[20:26:33] [User Authenticator #2/INFO]: UUID of player telnicky is 173b917153cd4fd28cda356eb6b98199
+[20:26:33] [Server thread/INFO]: telnicky[/127.0.0.1:49891] logged in with entity id 3491 at ([world] -556.4673024899677, 64.0, -135.2152520193268)
+[20:26:39] [Server thread/INFO]: telnicky issued server command: /gamemode
+[20:26:49] [Server thread/INFO]: telnicky already has game mode 1[m
+[20:27:09] [Server thread/INFO]: CONSOLE: Set telnicky's game mode to ADVENTURE mode[m
+[20:27:22] [Server thread/INFO]: CONSOLE: Set telnicky's game mode to SURVIVAL mode[m
+[20:27:34] [Server thread/INFO]: CONSOLE: Set telnicky's game mode to CREATIVE mode[m
+[20:27:48] [Server thread/INFO]: telnicky has just earned the achievement [Taking Inventory]
+[20:30:05] [Server thread/INFO]: Unknown command. Type "help" for help.[m
+[20:30:08] [Thread-4/INFO]: Stopping server
