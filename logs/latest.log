@@ -1,118 +1,157 @@
-[22:33:43] [Server thread/INFO]: Starting minecraft server version 1.7.2
-[22:33:43] [Server thread/INFO]: Loading properties
-[22:33:43] [Server thread/INFO]: Default game type: CREATIVE
-[22:33:43] [Server thread/INFO]: Generating keypair
-[22:33:43] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:33:43] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.2-b2974jnks (MC: 1.7.2) (Implementing API version 1.7.2-R0.2)
-[22:33:43] [Server thread/INFO]: [PuruginPlugin] Loading PuruginPlugin v0.7.1
-[22:33:43] [Thread-7/WARN]: Could not get information about this CraftBukkit version; perhaps you are running a custom one?: IOException
-[22:33:44] [Thread-7/WARN]: Could not get latest artifact information: IOException
-[22:33:46] [Server thread/INFO]: Preparing level "world"
-[22:33:46] [Server thread/INFO]: Preparing start region for level 0 (Seed: 680909306980533753)
-[22:33:47] [Server thread/INFO]: Preparing start region for level 1 (Seed: 680909306980533753)
-[22:33:48] [Server thread/INFO]: Preparing start region for level 2 (Seed: 680909306980533753)
-[22:33:48] [Server thread/INFO]: [PuruginPlugin] Enabling PuruginPlugin v0.7.1
-[22:33:48] [Server thread/INFO]: [A world that is never dark] version 0.1 ENABLED
-[22:33:48] [Server thread/INFO]: [ArrayPlay] version 0.1 ENABLED
-[22:33:48] [Server thread/ERROR]: Error occurred (in the plugin loader) while enabling BackCmd v0.1 (Is it up to date?)
+[18:20:46] [Server thread/INFO]: Starting minecraft server version 1.7.2
+[18:20:46] [Server thread/INFO]: Loading properties
+[18:20:46] [Server thread/INFO]: Default game type: CREATIVE
+[18:20:46] [Server thread/INFO]: Generating keypair
+[18:20:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:20:46] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.2-b2974jnks (MC: 1.7.2) (Implementing API version 1.7.2-R0.2)
+[18:20:46] [Server thread/INFO]: [PuruginPlugin] Loading PuruginPlugin v0.7.1
+[18:20:47] [Thread-7/WARN]: Could not get information about this CraftBukkit version; perhaps you are running a custom one?: IOException
+[18:20:47] [Thread-7/WARN]: Could not get latest artifact information: IOException
+[18:20:49] [Server thread/INFO]: Preparing level "world"
+[18:20:49] [Server thread/INFO]: Preparing start region for level 0 (Seed: 680909306980533753)
+[18:20:50] [Server thread/INFO]: Preparing start region for level 1 (Seed: 680909306980533753)
+[18:20:51] [Server thread/INFO]: Preparing start region for level 2 (Seed: 680909306980533753)
+[18:20:51] [Server thread/INFO]: [PuruginPlugin] Enabling PuruginPlugin v0.7.1
+[18:20:51] [Server thread/ERROR]: Error occurred (in the plugin loader) while enabling BackCmd v0.1 (Is it up to date?)
 org.jruby.exceptions.RaiseException: (ArgumentError) No suck event teleport
-	at RUBY.event(file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/event.rb:210) ~[?:?]
-	at RUBY.on_enable(/Users/telnicky/Code/minecraft_server/plugins/back_cmd.rb:20) ~[?:?]
-	at RUBY.onEnable(file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/plugin.rb:142) ~[?:?]
-	at BackCmdPlugin_275218223.onEnable(BackCmdPlugin_275218223.gen:13) ~[?:?]
-	at RUBY.onEnable(jar:file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:78) ~[?:?]
+	at RUBY.event(file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/event.rb:210) ~[?:?]
+	at RUBY.on_enable(C:\Users\STU\Desktop\Minecraft_Code\minecraft_server\plugins\back_cmd.rb:20) ~[?:?]
+	at RUBY.onEnable(file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/plugin.rb:142) ~[?:?]
+	at BackCmdPlugin_780012591.onEnable(BackCmdPlugin_780012591.gen:13) ~[?:?]
+	at RUBY.onEnable(jar:file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:78) ~[?:?]
 	at org.jruby.RubyHash.each(org/jruby/RubyHash.java:1339) ~[?:?]
-	at RUBY.onEnable(jar:file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:78) ~[?:?]
+	at RUBY.onEnable(jar:file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:78) ~[?:?]
 	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
-[22:33:48] [Server thread/INFO]: [Bouncer] version 0.2 ENABLED
-[22:33:48] [Server thread/INFO]: [Bulldozer] version 0.1 ENABLED
-[22:33:48] [Server thread/INFO]: [Cube Generator] version 0.2 ENABLED
-[22:33:48] [Server thread/INFO]: [delete] version 0.1 ENABLED
-[22:33:48] [Server thread/INFO]: [EggMadness] version 0.1 ENABLED
-[22:33:48] [Server thread/INFO]: [explosive_arrow] version 0.1 ENABLED
-[22:33:48] [Server thread/INFO]: [ExtendPlayer] version 0.1 ENABLED
-[22:33:48] [Server thread/INFO]: [Gamemode] version 0.1 ENABLED
-[22:33:48] [Server thread/INFO]: hello world
-[22:33:48] [Server thread/INFO]: [HelloWorld] version 0.4 ENABLED
-[22:33:48] [Server thread/INFO]: [LocsPlus] version 0.5 ENABLED
-[22:33:48] [Server thread/INFO]: [control world mob spawning] version 0.1 ENABLED
-[22:33:48] [Server thread/INFO]: [Message of the day] version 0.5 ENABLED
-[22:33:48] [Server thread/INFO]: [Nickname] version 0.3 ENABLED
-[22:33:49] [Server thread/INFO]: [Notch] version 0.1 ENABLED
-[22:33:49] [Server thread/INFO]: [Pause] version 0.1 ENABLED
-[22:33:49] [Server thread/INFO]: [RubyPermissions] version 0.1 ENABLED
-[22:33:49] [Server thread/INFO]: [PlayerJoined] version 0.2 ENABLED
-[22:33:49] [Server thread/INFO]: [Ports] version 0.3 ENABLED
-[22:33:49] [Server thread/INFO]: [purogo] version 0.2 ENABLED
-[22:33:49] [Server thread/INFO]: [refresh] version 0.1 ENABLED
-[22:33:49] [Server thread/INFO]: [Road Runner] version 0.1 ENABLED
-[22:33:49] [Server thread/ERROR]: Error occurred (in the plugin loader) while enabling ShapedRecipe v0.1 (Is it up to date?)
-org.jruby.exceptions.RaiseException: (NameError) undefined local variable or method `pattern' for #<ShapedRecipeExample:0xdf02820>
-	at RUBY.on_enable(/Users/telnicky/Code/minecraft_server/plugins/shaped_recipe.rb:14) ~[?:?]
-	at RUBY.onEnable(file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/plugin.rb:142) ~[?:?]
-	at ShapedRecipeExample_275217919.onEnable(ShapedRecipeExample_275217919.gen:13) ~[?:?]
-	at RUBY.onEnable(jar:file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:78) ~[?:?]
+[18:20:51] [Server thread/ERROR]: Error occurred (in the plugin loader) while enabling Notch v0.1 (Is it up to date?)
+org.jruby.exceptions.RaiseException: (LoadError) Could not find 'twitter' (>= 0) among 8 total gem(s)
+	at RUBY.to_specs(file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/META-INF/jruby.home/lib/ruby/shared/rubygems/dependency.rb:298) ~[?:?]
+	at RUBY.to_spec(file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/META-INF/jruby.home/lib/ruby/shared/rubygems/dependency.rb:309) ~[?:?]
+	at RUBY.gem(file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/META-INF/jruby.home/lib/ruby/shared/rubygems/core_ext/kernel_gem.rb:47) ~[?:?]
+	at RUBY.process_gems(file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/plugin.rb:204) ~[?:?]
 	at org.jruby.RubyHash.each(org/jruby/RubyHash.java:1339) ~[?:?]
-	at RUBY.onEnable(jar:file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:78) ~[?:?]
-	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
-[22:33:49] [Server thread/INFO]: [Slime Finder] version 0.1 ENABLED
-[22:33:49] [Server thread/INFO]: [Spawn] version 0.3 ENABLED
-[22:33:49] [Server thread/INFO]: [Tron] version 0.1 ENABLED
-[22:33:49] [Server thread/INFO]: [Tunnel] version 0.1 ENABLED
-[22:33:49] [Server thread/INFO]: [UncreateArmor] version 0.1 ENABLED
-[22:33:49] [Server thread/INFO]: [Walle] version 0.1 ENABLED
-[22:33:49] [Server thread/ERROR]: Error occurred (in the plugin loader) while enabling Weather v0.5 (Is it up to date?)
-org.jruby.exceptions.RaiseException: (NoMethodError) undefined method `plugin_name=' for #<Java::OrgBukkitCommandDefaults::WeatherCommand:0x339e3714>
-	at RUBY.infect(file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/command.rb:34) ~[?:?]
-	at RUBY.add_command(file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/bukkit/plugin/simple_plugin_manager.rb:12) ~[?:?]
-	at RUBY.command(file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/command.rb:105) ~[?:?]
-	at RUBY.public_command(file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/command.rb:123) ~[?:?]
-	at RUBY.on_enable(/Users/telnicky/Code/minecraft_server/plugins/weather.rb:14) ~[?:?]
-	at RUBY.onEnable(file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/plugin.rb:142) ~[?:?]
-	at WeatherPlugin_275217834.onEnable(WeatherPlugin_275217834.gen:13) ~[?:?]
-	at RUBY.onEnable(jar:file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:78) ~[?:?]
+	at RUBY.process_gems(file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/plugin.rb:196) ~[?:?]
+	at RUBY.onEnable(file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/plugin.rb:139) ~[?:?]
+	at NotchPlugin_780012792.onEnable(NotchPlugin_780012792.gen:13) ~[?:?]
+	at RUBY.onEnable(jar:file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:78) ~[?:?]
 	at org.jruby.RubyHash.each(org/jruby/RubyHash.java:1339) ~[?:?]
-	at RUBY.onEnable(jar:file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:78) ~[?:?]
+	at RUBY.onEnable(jar:file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:78) ~[?:?]
 	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
-[22:33:49] [Server thread/INFO]: [Who] version 0.4 ENABLED
-[22:33:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:33:49] [Server thread/INFO]: Done (2.253s)! For help, type "help" or "?"
-[22:33:50] [User Authenticator #1/INFO]: UUID of player telnicky is 173b917153cd4fd28cda356eb6b98199
-[22:33:50] [Server thread/INFO]: telnicky[/127.0.0.1:49848] logged in with entity id 809 at ([world] -686.703159480296, 6.873860810103989, -198.12230524210872)
-[22:34:31] [Server thread/INFO]: telnicky issued server command: /refresh
-[22:34:33] [Ruby-0-Thread-10: jar:file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:79/INFO]: RESTARTING: /Users/telnicky/Code/minecraft_server/plugins/delete.rb
-[22:34:33] [Ruby-0-Thread-10: jar:file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:79/INFO]: RESTARTING: /Users/telnicky/Code/minecraft_server/plugins/expolsive_arrow.rb
-[22:34:33] [Ruby-0-Thread-11: file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:60/INFO]: [delete] version 0.1 DISABLED
-[22:34:33] [Ruby-0-Thread-12: file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:60/INFO]: [explosive_arrow] version 0.1 DISABLED
-[22:34:33] [Ruby-0-Thread-10: jar:file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:79/INFO]: RESTARTING: /Users/telnicky/Code/minecraft_server/plugins/refresh.rb
-[22:34:33] [Ruby-0-Thread-13: file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:60/INFO]: [refresh] version 0.1 DISABLED
-[22:34:33] [Ruby-0-Thread-11: file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:60/WARN]: file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:44 warning: ambiguous Java methods found, using unregisterAll(org.bukkit.plugin.Plugin)
-
-[22:34:33] [Ruby-0-Thread-12: file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:60/WARN]: file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:44 warning: ambiguous Java methods found, using unregisterAll(org.bukkit.plugin.Plugin)
-
-[22:34:33] [Ruby-0-Thread-13: file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:60/WARN]: file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:44 warning: ambiguous Java methods found, using unregisterAll(org.bukkit.plugin.Plugin)
-
-[22:34:33] [Ruby-0-Thread-12: file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:60/INFO]: [explosive_arrow] version 0.1 ENABLED
-[22:34:33] [Ruby-0-Thread-13: file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:60/INFO]: [refresh] version 0.1 ENABLED
-[22:34:33] [Ruby-0-Thread-11: file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:60/INFO]: [delete] version 0.1 ENABLED
-[22:36:38] [Server thread/WARN]: /Users/telnicky/Code/minecraft_server/plugins/bouncer.rb:35 warning: ambiguous Java methods found, using multiply(double)
-
-[22:36:38] [Server thread/WARN]: /Users/telnicky/Code/minecraft_server/plugins/bouncer.rb:36 warning: ambiguous Java methods found, using setY(double)
-
-[22:40:17] [Server thread/INFO]: telnicky lost connection: Disconnected
-[22:40:17] [Server thread/INFO]: telnicky left the game.
-[22:40:38] [User Authenticator #2/INFO]: UUID of player telnicky is 173b917153cd4fd28cda356eb6b98199
-[22:40:38] [Server thread/INFO]: telnicky[/127.0.0.1:49911] logged in with entity id 35562 at ([world] -720.3222575799048, 73.18158901257199, -165.85933337479486)
-[22:40:43] [Server thread/INFO]: telnicky issued server command: /refresh
-[22:40:43] [Ruby-0-Thread-10: jar:file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:79/INFO]: RESTARTING: /Users/telnicky/Code/minecraft_server/plugins/delete.rb
-[22:40:43] [Ruby-0-Thread-10: jar:file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:79/INFO]: RESTARTING: /Users/telnicky/Code/minecraft_server/plugins/expolsive_arrow.rb
-[22:40:43] [Ruby-0-Thread-14: file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:60/INFO]: [delete] version 0.1 DISABLED
-[22:40:43] [Ruby-0-Thread-10: jar:file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:79/INFO]: RESTARTING: /Users/telnicky/Code/minecraft_server/plugins/refresh.rb
-[22:40:43] [Ruby-0-Thread-15: file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:60/INFO]: [explosive_arrow] version 0.1 DISABLED
-[22:40:43] [Ruby-0-Thread-16: file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:60/INFO]: [refresh] version 0.1 DISABLED
-[22:40:43] [Ruby-0-Thread-15: file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:60/INFO]: [explosive_arrow] version 0.1 ENABLED
-[22:40:44] [Ruby-0-Thread-14: file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:60/INFO]: [delete] version 0.1 ENABLED
-[22:40:44] [Ruby-0-Thread-16: file:/Users/telnicky/Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:60/INFO]: [refresh] version 0.1 ENABLED
-[22:40:51] [Server thread/INFO]: telnicky lost connection: Disconnected
-[22:40:51] [Server thread/INFO]: telnicky left the game.
-[22:41:14] [Thread-4/INFO]: Stopping server
+[18:20:51] [Server thread/ERROR]: Error occurred (in the plugin loader) while enabling ShapedRecipe v0.1 (Is it up to date?)
+org.jruby.exceptions.RaiseException: (NameError) undefined local variable or method `pattern' for #<ShapedRecipeExample:0x1707690>
+	at RUBY.on_enable(C:\Users\STU\Desktop\Minecraft_Code\minecraft_server\plugins\shaped_recipe.rb:14) ~[?:?]
+	at RUBY.onEnable(file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/plugin.rb:142) ~[?:?]
+	at ShapedRecipeExample_780012882.onEnable(ShapedRecipeExample_780012882.gen:13) ~[?:?]
+	at RUBY.onEnable(jar:file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:78) ~[?:?]
+	at org.jruby.RubyHash.each(org/jruby/RubyHash.java:1339) ~[?:?]
+	at RUBY.onEnable(jar:file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:78) ~[?:?]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+[18:20:51] [Server thread/ERROR]: Error occurred (in the plugin loader) while enabling Weather v0.5 (Is it up to date?)
+org.jruby.exceptions.RaiseException: (NoMethodError) undefined method `plugin_name=' for #<Java::OrgBukkitCommandDefaults::WeatherCommand:0xea3bc5>
+	at RUBY.infect(file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/command.rb:34) ~[?:?]
+	at RUBY.add_command(file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/bukkit/plugin/simple_plugin_manager.rb:12) ~[?:?]
+	at RUBY.command(file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/command.rb:105) ~[?:?]
+	at RUBY.public_command(file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/command.rb:123) ~[?:?]
+	at RUBY.on_enable(C:\Users\STU\Desktop\Minecraft_Code\minecraft_server\plugins\weather.rb:14) ~[?:?]
+	at RUBY.onEnable(file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/plugin.rb:142) ~[?:?]
+	at WeatherPlugin_780012956.onEnable(WeatherPlugin_780012956.gen:13) ~[?:?]
+	at RUBY.onEnable(jar:file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:78) ~[?:?]
+	at org.jruby.RubyHash.each(org/jruby/RubyHash.java:1339) ~[?:?]
+	at RUBY.onEnable(jar:file:/C:/Users/STU/Desktop/Minecraft_Code/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:78) ~[?:?]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+[18:20:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:20:51] [Server thread/INFO]: Done (2.279s)! For help, type "help" or "?"
+[18:21:16] [User Authenticator #1/INFO]: UUID of player jwise25 is ae48c063c7f64f428be307919f2cd057
+[18:21:16] [Server thread/INFO]: jwise25[/127.0.0.1:50573] logged in with entity id 5247 at ([world] -495.0462930791896, 67.0, -95.44707624293255)
+[18:21:17] [Server thread/ERROR]: Could not pass event BlockBreakEvent to Walle v0.1
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:481) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:466) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.PlayerInteractManager.breakBlock(PlayerInteractManager.java:263) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.PlayerInteractManager.dig(PlayerInteractManager.java:118) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.a(PlayerConnection.java:535) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.PacketPlayInBlockDig.a(SourceFile:53) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.PacketPlayInBlockDig.handle(SourceFile:8) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.NetworkManager.a(NetworkManager.java:146) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.ServerConnection.c(SourceFile:134) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:655) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:250) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:545) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:457) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+Caused by: org.jruby.exceptions.RaiseException: (LocalJumpError) unexpected return
+	at org.jruby.RubyProc.call(org/jruby/RubyProc.java:271) ~[?:?]
+	at RUBY.on_event((eval):4) ~[?:?]
+	at net.minecraft.server.v1_7_R1.PacketPlayInBlockDig.a(SourceFile:53) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.PacketPlayInBlockDig.handle(SourceFile:8) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.ServerConnection.c(SourceFile:134) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	... 1 more
+[18:21:23] [Server thread/ERROR]: Could not pass event BlockBreakEvent to Walle v0.1
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:481) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:466) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.PlayerInteractManager.breakBlock(PlayerInteractManager.java:263) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.PlayerInteractManager.dig(PlayerInteractManager.java:118) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.a(PlayerConnection.java:535) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.PacketPlayInBlockDig.a(SourceFile:53) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.PacketPlayInBlockDig.handle(SourceFile:8) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.NetworkManager.a(NetworkManager.java:146) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.ServerConnection.c(SourceFile:134) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:655) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:250) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:545) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:457) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+Caused by: org.jruby.exceptions.RaiseException: (LocalJumpError) unexpected return
+	at org.jruby.RubyProc.call(org/jruby/RubyProc.java:271) ~[?:?]
+	at RUBY.on_event((eval):4) ~[?:?]
+	at net.minecraft.server.v1_7_R1.PacketPlayInBlockDig.a(SourceFile:53) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.PacketPlayInBlockDig.handle(SourceFile:8) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.ServerConnection.c(SourceFile:134) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	... 1 more
+[18:22:37] [Server thread/INFO]: jwise25 lost connection: Disconnected
+[18:22:37] [Server thread/INFO]: jwise25 left the game.
+[18:29:15] [User Authenticator #2/INFO]: UUID of player jwise25 is ae48c063c7f64f428be307919f2cd057
+[18:29:15] [Server thread/INFO]: jwise25[/127.0.0.1:50732] logged in with entity id 6091 at ([world] -495.0462930791896, 67.0, -95.44707624293255)
+[18:33:57] [User Authenticator #3/INFO]: UUID of player telnicky is 173b917153cd4fd28cda356eb6b98199
+[18:33:57] [Server thread/INFO]: telnicky[/192.168.1.134:52109] logged in with entity id 8839 at ([world] -720.3222575799048, 73.18158901257199, -165.85933337479486)
+[18:34:26] [Server thread/INFO]: jwise25 issued server command: /tp telnicky
+[18:34:34] [Server thread/INFO]: jwise25 issued server command: /tp telnicky
+[18:35:15] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3380ms behind, skipping 67 tick(s)
+[18:35:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5562ms behind, skipping 111 tick(s)
+[18:38:07] [Server thread/INFO]: jwise25 issued server command: /plungins
+[18:38:17] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2431ms behind, skipping 48 tick(s)
+[18:38:28] [Server thread/INFO]: jwise25 issued server command: /gamemode1
+[18:38:34] [Server thread/INFO]: jwise25 issued server command: /gamemode 0
+[18:38:35] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5210ms behind, skipping 104 tick(s)
+[18:38:39] [Server thread/INFO]: jwise25 issued server command: /plugins
+[18:38:46] [Server thread/INFO]: jwise25 issued server command: /help
+[18:38:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4957ms behind, skipping 99 tick(s)
+[18:38:58] [Server thread/INFO]: jwise25 issued server command: /help 2
+[18:39:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4673ms behind, skipping 93 tick(s)
+[18:39:12] [Server thread/INFO]: jwise25 issued server command: /help 3
+[18:39:26] [Server thread/INFO]: jwise25 issued server command: /help 4
+[18:39:28] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6472ms behind, skipping 129 tick(s)
+[18:39:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 16742ms behind, skipping 334 tick(s)
+[18:40:03] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5492ms behind, skipping 109 tick(s)
+[18:40:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 10065ms behind, skipping 201 tick(s)
+[18:40:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4873ms behind, skipping 97 tick(s)
+[18:40:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6590ms behind, skipping 131 tick(s)
+[18:41:13] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6646ms behind, skipping 132 tick(s)
+[18:41:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6277ms behind, skipping 125 tick(s)
+[18:41:47] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6452ms behind, skipping 129 tick(s)
+[18:42:06] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7860ms behind, skipping 157 tick(s)
+[18:42:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6259ms behind, skipping 125 tick(s)
+[18:42:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6182ms behind, skipping 123 tick(s)
+[18:42:56] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5110ms behind, skipping 102 tick(s)
+[18:43:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3551ms behind, skipping 71 tick(s)
+[18:44:15] [Server thread/INFO]: telnicky issued server command: /refresh
+[18:51:27] [Server thread/INFO]: jwise25 lost connection: Disconnected
+[18:51:27] [Server thread/INFO]: jwise25 left the game.
+[18:52:52] [User Authenticator #4/INFO]: UUID of player jwise25 is ae48c063c7f64f428be307919f2cd057
+[18:52:52] [Server thread/INFO]: jwise25[/127.0.0.1:51534] logged in with entity id 88518 at ([world] -675.7835390086049, 91.50063918859463, 163.64573585768863)
+[18:53:23] [Server thread/INFO]: jwise25 lost connection: Disconnected
+[18:53:23] [Server thread/INFO]: jwise25 left the game.
