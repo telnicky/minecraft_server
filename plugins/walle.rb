@@ -3,44 +3,30 @@ class WallePlugin
   description 'Walle', 0.1
 
   def on_enable
-    @walle = {}
+    walle = {}
 
     public_command('walle', 'Make every block you place repeat to the given height.', '/walle {height}') do |player, *args|
-      height = args.first.to_i || 1
-
-      @walle[player.name] = height
-      player.msg "#{player.name}'s building height has been set at #{@walle[player.name]}"
+      walle[player.name] = args.first.to_i || 1
+      player.msg "#{player.name}'s building height has been set at #{walle[player.name]}"
     end
 
     event(:block_place) do |event|
-      return unless @walle[event.player.name]
-
-      walle_height = @walle[event.player.name]
-      absolute_walle_height = walle_height.abs
-
-      absolute_walle_height.times do |counter|
-        if walle_height > 0
-          event.block_placed.block_at(:up, counter).change_type(event.block_placed.type)
-        else
-          event.block_placed.block_at(:down, counter).change_type(event.block_placed.type)
-        end
-      end
+      height = walle[event.player.name]
+      place(event.block, height)
     end
 
     event(:block_break) do |event|
-      return unless @walle[event.player.name]
+      height = walle[event.player.name]
+      place(event.block, height, :air, 0)
+    end
+  end
 
-      walle_height = @walle[event.player.name]
-      absolute_walle_height = walle_height.abs
-
-
-      absolute_walle_height.times do |counter|
-        if walle_height > 0
-          event.block.block_at(:up, counter).change_type(:air)
-        else
-          event.block.block_at(:down, counter).change_type(:air)
-        end
-      end
+  def place(block, height, type = block.type, data = block.data)
+    direction = height.to_i > 0 ? :up : :down
+    height.abs.times do |counter|
+      new_block = block.block_at(direction, counter)
+      new_block.change_type(type)
+      new_block.data = data
     end
   end
 end
