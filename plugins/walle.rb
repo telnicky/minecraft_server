@@ -22,7 +22,8 @@ class WallePlugin
   end
 
   def place(block, height, type = block.type, data = block.data)
-    direction = height.to_i > 0 ? :up : :down
+    height = height.to_i
+    direction = height > 0 ? :up : :down
     height.abs.times do |counter|
       new_block = block.block_at(direction, counter)
       new_block.change_type(type)

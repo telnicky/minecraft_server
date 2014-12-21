@@ -45,7 +45,7 @@ super-pickaxe:
     many-drop-items: false
 
 snapshots:
-    directory:
+    directory: ./backups
 
 navigation-wand:
     item: 345

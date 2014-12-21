@@ -1,67 +1,187 @@
-[00:50:24] [Server thread/INFO]: Starting minecraft server version 1.7.9
-[00:50:24] [Server thread/INFO]: Loading properties
-[00:50:24] [Server thread/INFO]: Default game type: CREATIVE
-[00:50:24] [Server thread/INFO]: Generating keypair
-[00:50:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:50:25] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks (MC: 1.7.9) (Implementing API version 1.7.9-R0.2)
-[00:50:26] [Server thread/INFO]: [PuruginPlugin] Loading PuruginPlugin v0.7.1
-[00:50:26] [Thread-7/WARN]: Could not get information about this CraftBukkit version; perhaps you are running a custom one?: IOException
-[00:50:26] [Thread-7/WARN]: Could not get latest artifact information: IOException
-[00:50:37] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.6.2
-[00:50:37] [Server thread/INFO]: Preparing level "world"
-[00:50:37] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2898780457219448813)
-[00:50:38] [Server thread/INFO]: Preparing spawn area: 63%
-[00:50:38] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2898780457219448813)
-[00:50:39] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2898780457219448813)
-[00:50:39] [Server thread/INFO]: [PuruginPlugin] Enabling PuruginPlugin v0.7.1
-[00:50:39] [Server thread/INFO]: [delete] version 0.1 ENABLED
-[00:50:39] [Server thread/INFO]: [Weather] version 0.5 ENABLED
-[00:50:39] [Server thread/INFO]: [explosive_arrow] version 0.1 ENABLED
-[00:50:39] [Server thread/INFO]: [ItemInHand] version 0.1 ENABLED
-[00:50:39] [Server thread/INFO]: [Bulldozer] version 0.1 ENABLED
-[00:50:39] [Server thread/INFO]: [Gamemode] version 0.1 ENABLED
-[00:50:39] [Server thread/INFO]: [Who] version 0.4 ENABLED
-[00:50:39] [Server thread/INFO]: [refresh] version 0.1 ENABLED
-[00:50:39] [Server thread/INFO]: [Tron] version 0.1 ENABLED
-[00:50:39] [Server thread/INFO]: [BlockType] version 0.1 ENABLED
-[00:50:39] [Server thread/INFO]: [Maze_Generator] version 0.1 ENABLED
-[00:50:39] [Server thread/INFO]: [Find_A_Friend] version 0.1 ENABLED
-[00:50:39] [Server thread/INFO]: [Walle] version 0.1 ENABLED
-[00:50:39] [Server thread/INFO]: [A_world_that_is_never_dark] version 0.1 ENABLED
-[00:50:39] [Server thread/INFO]: [Dig] version 0.1 ENABLED
-[00:50:39] [Server thread/INFO]: [Cube_Generator] version 0.2 ENABLED
-[00:50:39] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.6.2
-[00:50:39] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[00:50:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:50:40] [Server thread/INFO]: Done (3.160s)! For help, type "help" or "?"
-[00:50:43] [User Authenticator #1/INFO]: UUID of player telnicky is 173b9171-53cd-4fd2-8cda-356eb6b98199
-[00:50:43] [Server thread/INFO]: telnicky[/104.218.158.147:60220] logged in with entity id 121 at ([world] -505.92865209949434, 72.0, 492.6064031108589)
-[00:51:02] [Server thread/INFO]: [WorldEdit] Using external NmsBlock for this version: CBXNmsBlock_175_5xcompat
-[00:51:11] [Server thread/INFO]: telnicky issued server command: /walle
-[00:51:23] [Server thread/INFO]: CONSOLE: Stopping the server..[m
-[00:51:23] [Server thread/INFO]: Stopping server
-[00:51:23] [Server thread/INFO]: [Cube_Generator] version 0.2 DISABLED
-[00:51:23] [Server thread/INFO]: [Dig] version 0.1 DISABLED
-[00:51:23] [Server thread/INFO]: [A_world_that_is_never_dark] version 0.1 DISABLED
-[00:51:23] [Server thread/INFO]: [Walle] version 0.1 DISABLED
-[00:51:23] [Server thread/INFO]: [Find_A_Friend] version 0.1 DISABLED
-[00:51:23] [Server thread/INFO]: [Maze_Generator] version 0.1 DISABLED
-[00:51:23] [Server thread/INFO]: [BlockType] version 0.1 DISABLED
-[00:51:23] [Server thread/INFO]: [Tron] version 0.1 DISABLED
-[00:51:23] [Server thread/INFO]: [refresh] version 0.1 DISABLED
-[00:51:23] [Server thread/INFO]: [Who] version 0.4 DISABLED
-[00:51:23] [Server thread/INFO]: [Gamemode] version 0.1 DISABLED
-[00:51:23] [Server thread/INFO]: [Bulldozer] version 0.1 DISABLED
-[00:51:23] [Server thread/INFO]: [ItemInHand] version 0.1 DISABLED
-[00:51:23] [Server thread/INFO]: [explosive_arrow] version 0.1 DISABLED
-[00:51:23] [Server thread/INFO]: [Weather] version 0.5 DISABLED
-[00:51:23] [Server thread/INFO]: [delete] version 0.1 DISABLED
-[00:51:23] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v5.6.2
-[00:51:23] [Server thread/INFO]: [PuruginPlugin] Disabling PuruginPlugin v0.7.1
-[00:51:23] [Server thread/INFO]: Saving players
-[00:51:23] [Server thread/INFO]: telnicky lost connection: Server closed
-[00:51:23] [Server thread/INFO]: telnicky left the game.
-[00:51:23] [Server thread/INFO]: Saving worlds
-[00:51:23] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[00:51:24] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
-[00:51:24] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[01:05:43] [Server thread/INFO]: Starting minecraft server version 1.7.9
+[01:05:43] [Server thread/INFO]: Loading properties
+[01:05:43] [Server thread/INFO]: Default game type: CREATIVE
+[01:05:43] [Server thread/INFO]: Generating keypair
+[01:05:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:05:44] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks (MC: 1.7.9) (Implementing API version 1.7.9-R0.2)
+[01:05:44] [Server thread/INFO]: [PuruginPlugin] Loading PuruginPlugin v0.7.1
+[01:05:44] [Thread-7/WARN]: Could not get information about this CraftBukkit version; perhaps you are running a custom one?: IOException
+[01:05:44] [Thread-7/WARN]: Could not get latest artifact information: IOException
+[01:05:56] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.6.2
+[01:05:56] [Server thread/INFO]: Preparing level "world"
+[01:05:56] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2898780457219448813)
+[01:05:57] [Server thread/INFO]: Preparing spawn area: 41%
+[01:05:58] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2898780457219448813)
+[01:05:58] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2898780457219448813)
+[01:05:58] [Server thread/INFO]: [PuruginPlugin] Enabling PuruginPlugin v0.7.1
+[01:05:58] [Server thread/INFO]: [delete] version 0.1 ENABLED
+[01:05:59] [Server thread/INFO]: [Weather] version 0.5 ENABLED
+[01:05:59] [Server thread/INFO]: [explosive_arrow] version 0.1 ENABLED
+[01:05:59] [Server thread/INFO]: [ItemInHand] version 0.1 ENABLED
+[01:05:59] [Server thread/INFO]: [Bulldozer] version 0.1 ENABLED
+[01:05:59] [Server thread/INFO]: [Gamemode] version 0.1 ENABLED
+[01:05:59] [Server thread/INFO]: [Who] version 0.4 ENABLED
+[01:05:59] [Server thread/INFO]: [refresh] version 0.1 ENABLED
+[01:05:59] [Server thread/INFO]: [Tron] version 0.1 ENABLED
+[01:05:59] [Server thread/INFO]: [BlockType] version 0.1 ENABLED
+[01:05:59] [Server thread/INFO]: [Maze_Generator] version 0.1 ENABLED
+[01:05:59] [Server thread/INFO]: [Find_A_Friend] version 0.1 ENABLED
+[01:05:59] [Server thread/INFO]: [Walle] version 0.1 ENABLED
+[01:05:59] [Server thread/INFO]: [Dig] version 0.1 ENABLED
+[01:05:59] [Server thread/INFO]: [Cube_Generator] version 0.2 ENABLED
+[01:05:59] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.6.2
+[01:05:59] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:05:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:05:59] [Server thread/INFO]: Done (3.158s)! For help, type "help" or "?"
+[01:06:07] [User Authenticator #1/INFO]: UUID of player telnicky is 173b9171-53cd-4fd2-8cda-356eb6b98199
+[01:06:07] [Server thread/INFO]: telnicky[/104.218.158.147:52444] logged in with entity id 97 at ([world] -608.7786706491567, 87.0, 610.336136379915)
+[01:06:16] [Server thread/INFO]: [WorldEdit] Using external NmsBlock for this version: CBXNmsBlock_175_5xcompat
+[01:06:22] [Server thread/INFO]: telnicky issued server command: //restore
+[01:06:22] [Server thread/INFO]: WorldEdit: Using com.sk89q.worldedit.data.ZippedMcRegionChunkStore for loading snapshot '/srv/minecraft/minecraft_server/./backups/2014-12-21-01-04-27.zip'
+[01:07:06] [Server thread/INFO]: telnicky issued server command: /snap use latest
+[01:07:31] [Server thread/INFO]: @: Teleported telnicky to -485.50, 88.50, 375.50[m
+[01:07:42] [Server thread/INFO]: @: Teleported telnicky to -481.50, 80.50, 365.50[m
+[01:08:33] [User Authenticator #2/INFO]: UUID of player jwise25 is ae48c063-c7f6-4f42-8be3-07919f2cd057
+[01:08:33] [Server thread/INFO]: jwise25[/67.186.229.193:64158] logged in with entity id 1778 at ([world] -485.5, 88.0, 375.5)
+[01:08:36] [Server thread/INFO]: @: Teleported jwise25 to -608.50, 87.50, 608.50[m
+[01:09:01] [Server thread/INFO]: @: Teleported jwise25 to -485.50, 88.50, 375.50[m
+[01:09:08] [Server thread/INFO]: @: Teleported jwise25 to -481.50, 80.50, 365.50[m
+[01:09:14] [Netty IO #1/INFO]: <telnicky> dude I almost got it[m
+[01:09:18] [Server thread/INFO]: jwise25 issued server command: /faf telnicky
+[01:09:22] [Server thread/INFO]: jwise25 issued server command: /awesome
+[01:09:26] [Netty IO #1/INFO]: <jwise25> awesome[m
+[01:09:31] [Netty IO #1/INFO]: <telnicky> I think i need to select the region i want to restore[m
+[01:09:38] [Netty IO #1/INFO]: <jwise25> aaaah[m
+[01:09:51] [Server thread/INFO]: @: Teleported jwise25 to -482.50, 89.50, 365.50[m
+[01:09:56] [Server thread/INFO]: @: Teleported jwise25 to -608.50, 87.50, 608.50[m
+[01:10:05] [Netty IO #1/INFO]: <jwise25> do you want me to delete some beds?[m
+[01:10:21] [Netty IO #1/INFO]: <telnicky> one sec reading the docs again[m
+[01:10:27] [Netty IO #1/INFO]: <jwise25> k[m
+[01:10:43] [Server thread/INFO]: telnicky issued server command: /faf jwise25
+[01:11:05] [Netty IO #1/INFO]: <telnicky> ok I am trying it[m
+[01:11:18] [Netty IO #1/INFO]: <jwise25> k[m
+[01:11:20] [Server thread/INFO]: telnicky issued server command: //restore
+[01:11:20] [Server thread/INFO]: WorldEdit: Using com.sk89q.worldedit.data.ZippedMcRegionChunkStore for loading snapshot '/srv/minecraft/minecraft_server/./backups/world/2014-12-21-01-04-27.zip'
+[01:11:35] [Netty IO #1/INFO]: <telnicky> ugh[m
+[01:11:39] [Netty IO #1/INFO]: <jwise25> hah[m
+[01:11:42] [Netty IO #1/INFO]: <jwise25> noob[m
+[01:11:45] [Netty IO #1/INFO]: <telnicky> haha[m
+[01:12:01] [Server thread/INFO]: telnicky issued server command: //restore
+[01:12:01] [Server thread/INFO]: WorldEdit: Using com.sk89q.worldedit.data.ZippedMcRegionChunkStore for loading snapshot '/srv/minecraft/minecraft_server/./backups/world/2014-12-21-01-04-27.zip'
+[01:12:23] [Netty IO #1/INFO]: <jwise25> command blocks look way cooler in this resourse pack[m
+[01:12:29] [Netty IO #1/INFO]: <telnicky> ok I am gonna try to take another snap[m
+[01:12:32] [Netty IO #1/INFO]: <jwise25> k[m
+[01:12:38] [Netty IO #1/INFO]: <telnicky> the one I used to use?[m
+[01:12:45] [Server thread/INFO]: jwise25 issued server command: /yea
+[01:12:55] [Netty IO #1/INFO]: <jwise25> yea[m
+[01:13:13] [Server thread/INFO]: @: Teleported jwise25 to -485.50, 88.50, 375.50[m
+[01:13:22] [Server thread/INFO]: @: Set jwise25's game mode to SURVIVAL mode[m
+[01:13:22] [Server thread/INFO]: telnicky issued server command: //restore
+[01:13:22] [Server thread/INFO]: WorldEdit found no snapshots: looked in: /srv/minecraft/minecraft_server/backups
+[01:13:22] [Server thread/INFO]: @: Teleported jwise25 to 517.50, 74.50, -314.46[m
+[01:13:28] [Server thread/INFO]: @: Teleported jwise25 to -489.46, 89.50, 371.50[m
+[01:14:03] [Server thread/INFO]: @: Teleported jwise25 to -481.50, 80.50, 365.50[m
+[01:14:15] [Server thread/INFO]: @: Teleported jwise25 to -482.50, 89.50, 365.50[m
+[01:14:23] [Server thread/INFO]: @: Teleported jwise25 to -608.50, 87.50, 608.50[m
+[01:14:37] [Server thread/INFO]: telnicky issued server command: //restore
+[01:14:37] [Server thread/INFO]: WorldEdit: Using com.sk89q.worldedit.data.ZippedMcRegionChunkStore for loading snapshot '/srv/minecraft/minecraft_server/./backups/world/2014-12-21-01-14-24.zip'
+[01:14:41] [Server thread/INFO]: jwise25 issued server command: /gamemode 1
+[01:14:41] [Server thread/INFO]: jwise25: Set own game mode to CREATIVE mode[m
+[01:14:47] [Server thread/INFO]: @: Teleported jwise25 to -485.50, 88.50, 375.50[m
+[01:14:53] [Server thread/INFO]: telnicky issued server command: //restore
+[01:14:53] [Server thread/INFO]: WorldEdit: Using com.sk89q.worldedit.data.ZippedMcRegionChunkStore for loading snapshot '/srv/minecraft/minecraft_server/./backups/world/2014-12-21-01-14-24.zip'
+[01:14:56] [Server thread/INFO]: @: Teleported jwise25 to -481.50, 80.50, 365.50[m
+[01:16:16] [Server thread/INFO]: telnicky issued server command: //restore
+[01:16:16] [Server thread/INFO]: WorldEdit: Using com.sk89q.worldedit.data.ZippedMcRegionChunkStore for loading snapshot '/srv/minecraft/minecraft_server/./backups/world/2014-12-21-01-15-36.zip'
+[01:16:23] [Server thread/INFO]: telnicky issued server command: //restore
+[01:16:23] [Server thread/INFO]: WorldEdit: Using com.sk89q.worldedit.data.ZippedMcRegionChunkStore for loading snapshot '/srv/minecraft/minecraft_server/./backups/world/2014-12-21-01-15-36.zip'
+[01:16:28] [Netty IO #1/INFO]: <telnicky> it works![m
+[01:16:28] [Server thread/INFO]: @: Teleported jwise25 to -482.50, 89.50, 365.50[m
+[01:16:33] [Server thread/INFO]: @: Teleported jwise25 to -608.50, 87.50, 608.50[m
+[01:16:41] [Netty IO #1/INFO]: <jwise25> what!![m
+[01:16:52] [Netty IO #1/INFO]: <jwise25> lemme get rid of these beds and then you do it again so i can see it[m
+[01:16:53] [Netty IO #1/INFO]: <telnicky> turns out i just suck at selections[m
+[01:17:03] [Netty IO #1/INFO]: <telnicky> whoa you are invisible[m
+[01:17:05] [Netty IO #1/INFO]: <jwise25> k try agian[m
+[01:17:10] [Server thread/INFO]: telnicky issued server command: //restore
+[01:17:10] [Server thread/INFO]: WorldEdit: Using com.sk89q.worldedit.data.ZippedMcRegionChunkStore for loading snapshot '/srv/minecraft/minecraft_server/./backups/world/2014-12-21-01-15-36.zip'
+[01:17:14] [Netty IO #1/INFO]: <telnicky> boosh[m
+[01:17:16] [Netty IO #1/INFO]: <jwise25> what!!!![m
+[01:17:23] [Netty IO #1/INFO]: <jwise25> how am i invisible[m
+[01:17:44] [Netty IO #1/INFO]: <telnicky> no idea, but i didn't see you destroy the beds[m
+[01:17:48] [Server thread/INFO]: @: Teleported telnicky to -485.50, 88.50, 375.50[m
+[01:17:57] [Netty IO #1/INFO]: <jwise25> weird[m
+[01:18:04] [Server thread/INFO]: jwise25 issued server command: /faf telnicky
+[01:18:10] [Netty IO #1/INFO]: <jwise25> can you see me know[m
+[01:18:12] [Netty IO #1/INFO]: <jwise25> now[m
+[01:18:18] [Netty IO #1/INFO]: <telnicky> i wonder if we could have a plate trigger two command blocks[m
+[01:18:21] [Netty IO #1/INFO]: <jwise25> i'm right in front of you[m
+[01:18:24] [Netty IO #1/INFO]: <telnicky> no[m
+[01:18:28] [Netty IO #1/INFO]: <jwise25> weird[m
+[01:18:43] [Netty IO #1/INFO]: <jwise25> Maybe we could[m
+[01:18:45] [Netty IO #1/INFO]: <telnicky> see you now[m
+[01:18:49] [Netty IO #1/INFO]: <jwise25> anywho i gotta go[m
+[01:18:53] [Netty IO #1/INFO]: <jwise25> see ya[m
+[01:18:55] [Netty IO #1/INFO]: <telnicky> cool later[m
+[01:18:57] [Server thread/INFO]: jwise25 lost connection: Disconnected
+[01:18:57] [Server thread/INFO]: jwise25 left the game.
+[01:21:07] [Server thread/INFO]: telnicky issued server command: //restore
+[01:21:07] [Server thread/INFO]: WorldEdit: Using com.sk89q.worldedit.data.ZippedMcRegionChunkStore for loading snapshot '/srv/minecraft/minecraft_server/./backups/world/2014-12-21-01-15-36.zip'
+[01:21:15] [Server thread/INFO]: telnicky issued server command: /restore
+[01:21:15] [Server thread/INFO]: WorldEdit: Using com.sk89q.worldedit.data.ZippedMcRegionChunkStore for loading snapshot '/srv/minecraft/minecraft_server/./backups/world/2014-12-21-01-15-36.zip'
+[01:21:52] [Server thread/INFO]: telnicky issued server command: //desel
+[01:21:56] [Server thread/INFO]: telnicky issued server command: //restore
+[01:22:31] [Server thread/INFO]: @: Set telnicky's game mode to SURVIVAL mode[m
+[01:22:34] [Server thread/INFO]: @: Teleported telnicky to 517.50, 74.50, -314.46[m
+[01:22:42] [Server thread/INFO]: @: Teleported telnicky to -489.46, 89.50, 371.50[m
+[01:22:49] [Server thread/INFO]: @: Teleported telnicky to 517.50, 74.50, -314.46[m
+[01:23:30] [Server thread/INFO]: telnicky issued server command: /gamemode creative
+[01:23:30] [Server thread/INFO]: telnicky: Set own game mode to CREATIVE mode[m
+[01:23:39] [Server thread/INFO]: @: Teleported telnicky to -489.46, 89.50, 371.50[m
+[01:23:51] [Server thread/INFO]: @: Set telnicky's game mode to SURVIVAL mode[m
+[01:23:52] [Server thread/INFO]: @: Teleported telnicky to 517.50, 74.50, -314.46[m
+[01:24:25] [Server thread/INFO]: @: Set telnicky's game mode to CREATIVE mode[m
+[01:24:29] [Server thread/INFO]: @: Teleported telnicky to -489.46, 89.50, 371.50[m
+[01:24:36] [Server thread/INFO]: @: Set telnicky's game mode to SURVIVAL mode[m
+[01:24:59] [Server thread/INFO]: telnicky issued server command: /gamemode creative
+[01:24:59] [Server thread/INFO]: telnicky: Set own game mode to CREATIVE mode[m
+[01:25:28] [Server thread/INFO]: telnicky issued server command: /gamemode 0
+[01:25:28] [Server thread/INFO]: telnicky: Set own game mode to SURVIVAL mode[m
+[01:25:41] [Server thread/INFO]: telnicky issued server command: /give telnicky command_block
+[01:25:41] [Server thread/INFO]: telnicky: Gave telnicky some 137 (COMMAND)[m
+[01:25:50] [Server thread/INFO]: telnicky issued server command: /gamemode 1
+[01:25:50] [Server thread/INFO]: telnicky: Set own game mode to CREATIVE mode[m
+[01:26:12] [Server thread/INFO]: @: Teleported telnicky to 517.50, 74.50, -314.46[m
+[01:26:12] [Server thread/INFO]: @: Set telnicky's game mode to SURVIVAL mode[m
+[01:26:22] [Server thread/INFO]: @: Set telnicky's game mode to CREATIVE mode[m
+[01:26:57] [Server thread/INFO]: @: Teleported telnicky to -489.46, 89.50, 371.50[m
+[01:27:10] [Server thread/INFO]: @: Teleported telnicky to 517.50, 74.50, -314.46[m
+[01:27:10] [Server thread/INFO]: @: Set telnicky's game mode to SURVIVAL mode[m
+[01:27:17] [Server thread/INFO]: @: Teleported telnicky to -489.46, 89.50, 371.50[m
+[01:27:17] [Server thread/INFO]: @: Set telnicky's game mode to CREATIVE mode[m
+[01:27:47] [Server thread/INFO]: @: Teleported telnicky to -608.50, 87.50, 608.50[m
+[01:29:31] [Server thread/INFO]: telnicky issued server command: /weather clear
+[01:29:37] [Server thread/INFO]: telnicky issued server command: /weather off
+[01:29:42] [Server thread/INFO]: telnicky issued server command: /weather stop
+[01:30:06] [Server thread/INFO]: telnicky issued server command: //chunk
+[01:30:13] [Server thread/INFO]: telnicky issued server command: //set gold
+[01:30:31] [Server thread/INFO]: telnicky issued server command: //undo
+[01:30:36] [Server thread/INFO]: telnicky issued server command: //set air
+[01:30:49] [Server thread/INFO]: telnicky issued server command: //chunk
+[01:30:53] [Server thread/INFO]: telnicky issued server command: //set air
+[01:31:26] [Server thread/INFO]: telnicky issued server command: //undo
+[01:35:07] [Server thread/INFO]: telnicky issued server command: //pos1
+[01:35:19] [Server thread/INFO]: telnicky issued server command: //pos1 0 0 0
+[01:35:29] [Server thread/INFO]: telnicky issued server command: //pos1 0,0,0
+[01:37:59] [Server thread/INFO]: @: Teleported telnicky to -485.50, 88.50, 375.50[m
+[01:38:32] [Server thread/INFO]: @: Teleported telnicky to -608.50, 87.50, 608.50[m
+[01:38:40] [Server thread/INFO]: @: Teleported telnicky to -485.50, 88.50, 375.50[m
+[01:40:50] [Server thread/INFO]: telnicky issued server command: /delsel
+[01:40:56] [Server thread/INFO]: telnicky issued server command: //sel
+[01:41:37] [Server thread/INFO]: telnicky issued server command: //pos1 0, 0, 0 @p
+[01:41:47] [Server thread/INFO]: telnicky issued server command: //pos1 0, 0, 0
+[01:41:56] [Server thread/INFO]: telnicky issued server command: //pos1 0,0,0 @p
+[01:43:12] [Server thread/INFO]: telnicky issued server command: //sel
+[01:43:17] [Server thread/INFO]: telnicky issued server command: //sel 1
+[01:44:30] [Server thread/INFO]: telnicky issued server command: //sel
+[01:44:52] [Server thread/INFO]: @: Gave telnicky some 137 (COMMAND)[m
