@@ -1,43 +1,33 @@
-[00:21:41] [User Authenticator #7/INFO]: UUID of player telnicky is 173b9171-53cd-4fd2-8cda-356eb6b98199
-[00:21:42] [Server thread/INFO]: telnicky[/104.218.158.147:52461] logged in with entity id 52673 at ([world] -539.2889925528075, 101.24192798076152, 545.1683016088639)
-[00:24:29] [Server thread/INFO]: telnicky issued server command: //restore
-[00:24:29] [Server thread/INFO]: WorldEdit: Using com.sk89q.worldedit.data.ZippedMcRegionChunkStore for loading snapshot '/srv/minecraft/minecraft_server/./backups/world/2014-12-21-01-15-36.zip'
-[00:24:31] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2047ms behind, skipping 40 tick(s)
-[00:26:57] [Server thread/INFO]: telnicky issued server command: /refresh
-[00:26:58] [Ruby-0-Thread-10: jar:file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:79/INFO]: RESTARTING: /srv/minecraft/minecraft_server/plugins/delete.rb
-[00:26:58] [Ruby-0-Thread-10: jar:file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:79/INFO]: RESTARTING: /srv/minecraft/minecraft_server/plugins/reset_arena.rb
-[00:26:58] [Ruby-0-Thread-84: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [delete] version 0.1 DISABLED
-[00:26:58] [Ruby-0-Thread-10: jar:file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:79/INFO]: RESTARTING: /srv/minecraft/minecraft_server/plugins/expolsive_arrow.rb
-[00:26:58] [Ruby-0-Thread-85: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [Reset_Arena] version 0.1 DISABLED
-[00:26:58] [Ruby-0-Thread-10: jar:file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:79/INFO]: RESTARTING: /srv/minecraft/minecraft_server/plugins/item_in_hand.rb
-[00:26:58] [Ruby-0-Thread-86: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [explosive_arrow] version 0.1 DISABLED
-[00:26:58] [Ruby-0-Thread-10: jar:file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:79/INFO]: RESTARTING: /srv/minecraft/minecraft_server/plugins/refresh.rb
-[00:26:58] [Ruby-0-Thread-87: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [ItemInHand] version 0.1 DISABLED
-[00:26:58] [Ruby-0-Thread-84: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [delete] version 0.1 ENABLED
-[00:26:58] [Ruby-0-Thread-85: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [Reset_Arena] version 0.1 ENABLED
-[00:26:58] [Ruby-0-Thread-10: jar:file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:79/INFO]: RESTARTING: /srv/minecraft/minecraft_server/plugins/tron.rb
-[00:26:58] [Ruby-0-Thread-10: jar:file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:79/INFO]: RESTARTING: /srv/minecraft/minecraft_server/plugins/block_type.rb
-[00:26:58] [Ruby-0-Thread-89: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [Tron] version 0.1 DISABLED
-[00:26:58] [Ruby-0-Thread-87: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [ItemInHand] version 0.1 ENABLED
-[00:26:58] [Ruby-0-Thread-88: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [refresh] version 0.1 DISABLED
-[00:26:58] [Ruby-0-Thread-10: jar:file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:79/INFO]: RESTARTING: /srv/minecraft/minecraft_server/plugins/maze.rb
-[00:26:58] [Ruby-0-Thread-88: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [refresh] version 0.1 ENABLED
-[00:26:58] [Ruby-0-Thread-10: jar:file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:79/INFO]: RESTARTING: /srv/minecraft/minecraft_server/plugins/find_a_friend.rb
-[00:26:58] [Ruby-0-Thread-91: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [Maze_Generator] version 0.1 DISABLED
-[00:26:58] [Ruby-0-Thread-90: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [BlockType] version 0.1 DISABLED
-[00:26:58] [Ruby-0-Thread-86: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [explosive_arrow] version 0.1 ENABLED
-[00:26:58] [Ruby-0-Thread-10: jar:file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:79/INFO]: RESTARTING: /srv/minecraft/minecraft_server/plugins/walle.rb
-[00:26:58] [Ruby-0-Thread-10: jar:file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin.rb:79/INFO]: RESTARTING: /srv/minecraft/minecraft_server/plugins/dig.rb
-[00:26:58] [Ruby-0-Thread-93: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [Walle] version 0.1 DISABLED
-[00:26:58] [Ruby-0-Thread-90: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [BlockType] version 0.1 ENABLED
-[00:26:58] [Ruby-0-Thread-89: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [Tron] version 0.1 ENABLED
-[00:26:59] [Ruby-0-Thread-92: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [Find_A_Friend] version 0.1 DISABLED
-[00:26:59] [Ruby-0-Thread-92: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [Find_A_Friend] version 0.1 ENABLED
-[00:26:59] [Ruby-0-Thread-91: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [Maze_Generator] version 0.1 ENABLED
-[00:26:59] [Ruby-0-Thread-94: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [Dig] version 0.1 DISABLED
-[00:26:59] [Ruby-0-Thread-94: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [Dig] version 0.1 ENABLED
-[00:26:59] [Ruby-0-Thread-93: file:/srv/minecraft/minecraft_server/plugins/purugin-0.7.1-bukkit-1.7.2-R0.3.jar!/purugin/change_listener.rb:24/INFO]: [Walle] version 0.1 ENABLED
-[00:27:06] [Server thread/INFO]: telnicky issued server command: /reset_arena
-[00:27:06] [Server thread/INFO]: WorldEdit: Using com.sk89q.worldedit.data.ZippedMcRegionChunkStore for loading snapshot '/srv/minecraft/minecraft_server/./backups/world/2014-12-21-01-15-36.zip'
-[00:27:33] [Server thread/INFO]: telnicky issued server command: /reset_arena
-[00:27:33] [Server thread/INFO]: WorldEdit: Using com.sk89q.worldedit.data.ZippedMcRegionChunkStore for loading snapshot '/srv/minecraft/minecraft_server/./backups/world/2014-12-21-01-15-36.zip'
+[15:54:49] [User Authenticator #8/INFO]: UUID of player telnicky is 173b9171-53cd-4fd2-8cda-356eb6b98199
+[15:54:49] [Server thread/INFO]: telnicky[/104.218.158.214:57300] logged in with entity id 218868 at ([world] -457.0860920534875, 77.0, 388.3387230740775)
+[15:55:26] [Server thread/INFO]: telnicky issued server command: /tron
+[15:56:06] [Netty IO #1/INFO]: <telnicky> asdf[m
+[15:56:31] [Server thread/INFO]: telnicky lost connection: Disconnected
+[15:56:31] [Server thread/INFO]: telnicky left the game.
+[16:01:09] [Server thread/INFO]: CONSOLE: Stopping the server..[m
+[16:01:09] [Server thread/INFO]: Stopping server
+[16:01:09] [Server thread/INFO]: [Cube_Generator] version 0.2 DISABLED
+[16:01:09] [Server thread/INFO]: [Dig] version 0.1 DISABLED
+[16:01:09] [Server thread/INFO]: [Walle] version 0.1 DISABLED
+[16:01:09] [Server thread/INFO]: [Find_A_Friend] version 0.1 DISABLED
+[16:01:09] [Server thread/INFO]: [Maze_Generator] version 0.1 DISABLED
+[16:01:09] [Server thread/INFO]: [BlockType] version 0.1 DISABLED
+[16:01:09] [Server thread/INFO]: [Tron] version 0.1 DISABLED
+[16:01:09] [Server thread/INFO]: [refresh] version 0.1 DISABLED
+[16:01:09] [Server thread/INFO]: [Who] version 0.4 DISABLED
+[16:01:09] [Server thread/INFO]: [Gamemode] version 0.1 DISABLED
+[16:01:09] [Server thread/INFO]: [Bulldozer] version 0.1 DISABLED
+[16:01:09] [Server thread/INFO]: [ItemInHand] version 0.1 DISABLED
+[16:01:09] [Server thread/INFO]: [explosive_arrow] version 0.1 DISABLED
+[16:01:09] [Server thread/INFO]: [Weather] version 0.5 DISABLED
+[16:01:09] [Server thread/INFO]: [Reset_Arena] version 0.1 DISABLED
+[16:01:09] [Server thread/INFO]: [delete] version 0.1 DISABLED
+[16:01:09] [Server thread/INFO]: [CBWrapper] Disabling CBWrapper v1.7
+[16:01:09] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v5.6.2
+[16:01:09] [Server thread/INFO]: [PuruginPlugin] Disabling PuruginPlugin v0.7.1
+[16:01:09] [Server thread/INFO]: Saving players
+[16:01:09] [Server thread/INFO]: Saving worlds
+[16:01:09] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[16:01:10] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[16:01:10] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[16:01:10] [Thread-4/INFO]: Stopping server
